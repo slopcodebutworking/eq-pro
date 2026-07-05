@@ -68,4 +68,4 @@ Die Architektur (Code-Injektion aus dem Popup statt Content-Script, ein
 
 ## Lizenz
 
-MIT © 2026 Trexi ([@slopcodebutworking](https://github.com/slopcodebutworking)) — siehe [LICENSE](LICENSE).
+MIT © 2026  ([@slopcodebutworking](https://github.com/slopcodebutworking)) — siehe [LICENSE](LICENSE).
