@@ -1,5 +1,9 @@
 # EQ Pro
 
+<p align="center">
+  <img src="logo.png" width="140" alt="EQ Pro logo">
+</p>
+
 A simple, lightweight sound booster + equalizer for Firefox — with a few presets.
 
 **Why I made it:** most Firefox sound boosters aren't great. They break over
@@ -27,15 +31,20 @@ Repo: https://github.com/slopcodebutworking/eq-pro
 
 ## Installation
 
-### Aus dem Firefox Add-ons Store
-> Sobald veröffentlicht, erscheint hier der Link.
+**➡️ Firefox Add-ons Store:** _coming soon_ — sobald die Prüfung durch ist, gibt
+es hier den „Add to Firefox"-Button (ein Klick, dauerhaft installiert, mit
+automatischen Updates).
 
-### Manuell (temporär, zum Entwickeln/Testen)
+<details>
+<summary>Development build (temporär, nur zum Testen)</summary>
+
 1. `about:debugging#/runtime/this-firefox` öffnen
-2. **„Temporäres Add-on laden"** klicken
-3. Die `manifest.json` aus diesem Ordner auswählen
+2. **„Load Temporary Add-on"** klicken
+3. Die `manifest.json` auswählen
 
-Hinweis: Temporär geladene Add-ons werden beim Firefox-Neustart wieder entfernt.
+Hinweis: temporär geladene Add-ons verschwinden beim nächsten Firefox-Neustart.
+Der normale Weg für Nutzer ist der Store-Button oben.
+</details>
 
 ## Nutzung
 
@@ -68,4 +77,4 @@ Die Architektur (Code-Injektion aus dem Popup statt Content-Script, ein
 
 ## Lizenz
 
-MIT © 2026  ([@slopcodebutworking](https://github.com/slopcodebutworking)) — siehe [LICENSE](LICENSE).
+MIT © 2026 [@slopcodebutworking](https://github.com/slopcodebutworking) — siehe [LICENSE](LICENSE).
