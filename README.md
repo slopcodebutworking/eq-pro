@@ -61,12 +61,6 @@ MediaElement → Gain (Booster) → BiquadFilter ×10 (EQ) → Ausgang
 Pro Media-Element wird ein eigener `AudioContext` erzeugt und direkt am Element
 zwischengespeichert.
 
-## Limitierungen
-
-- **DRM-Seiten** (Crunchyroll, Prime Video, Netflix, Disney+): technisch nicht
-  möglich – kein Browser-Add-on kann auf geschützte Streams zugreifen.
-- Cross-Origin-Audio ohne CORS lässt sich nicht abgreifen (gleiche Grenze wie
-  bei SoundFixer).
 
 ## Credits
 
